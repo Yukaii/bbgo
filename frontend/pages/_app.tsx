@@ -14,7 +14,7 @@ import Box from '@material-ui/core/Box';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../src/theme';
 import '../styles/globals.css'
-import {querySessions, querySyncStatus} from "../api/bbgo";
+import {querySessions, querySyncStatus} from "../src/api/bbgo";
 import {Sync} from "@material-ui/icons";
 
 const SyncNotStarted = 0

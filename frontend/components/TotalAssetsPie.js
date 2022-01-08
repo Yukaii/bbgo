@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 import {ResponsivePie} from '@nivo/pie';
-import {queryAssets} from '../api/bbgo';
+import {queryAssets} from '../src/api/bbgo';
 import {currencyColor} from '../src/utils';
 import CardContent from "@material-ui/core/CardContent";
 import Card from "@material-ui/core/Card";

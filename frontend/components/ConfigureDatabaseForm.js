@@ -13,7 +13,7 @@ import FormLabel from '@material-ui/core/FormLabel';
 
 import Alert from '@material-ui/lab/Alert';
 
-import {configureDatabase, testDatabaseConnection} from '../api/bbgo';
+import {configureDatabase, testDatabaseConnection} from '../src/api/bbgo';
 
 import {makeStyles} from '@material-ui/core/styles';
 

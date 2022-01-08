@@ -16,7 +16,7 @@ import ExchangeSessionTabPanel from '../components/ExchangeSessionTabPanel';
 
 import DashboardLayout from '../layouts/DashboardLayout';
 
-import {queryAssets, querySessions} from "../api/bbgo";
+import {queryAssets, querySessions} from "../src/api/bbgo";
 
 import { ChainId, Config, DAppProvider } from '@usedapp/core';
 

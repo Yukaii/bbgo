@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = process.env.NODE_ENV === "development" ? "http://localhost:8080" : process.env.NEXT_PUBLIC_API_URL;
+const baseURL = process.env.NODE_ENV === "development" ? "https://bbgo.yukai.dev" : process.env.NEXT_PUBLIC_API_URL;
 
 export function ping(cb) {
     return axios.get(baseURL + '/api/ping').then(response => {

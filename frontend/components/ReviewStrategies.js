@@ -16,7 +16,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 
 import {makeStyles} from '@material-ui/core/styles';
-import {queryStrategies} from "../api/bbgo";
+import {queryStrategies} from "../src/api/bbgo";
 
 const useStyles = makeStyles((theme) => ({
     strategyCard: {

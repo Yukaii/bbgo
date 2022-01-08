@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 import {makeStyles} from '@material-ui/core/styles';
-import {attachStrategyOn, querySessions, querySessionSymbols} from "../api/bbgo";
+import {attachStrategyOn, querySessions, querySessionSymbols} from "../src/api/bbgo";
 
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';

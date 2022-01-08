@@ -1,5 +1,5 @@
 import {ResponsiveBar} from '@nivo/bar';
-import {queryTradingVolume} from '../api/bbgo';
+import {queryTradingVolume} from '../src/api/bbgo';
 import {useEffect, useState} from "react";
 
 function toPeriodDateString(time, period) {

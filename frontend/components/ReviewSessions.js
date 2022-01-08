@@ -9,7 +9,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import PowerIcon from '@material-ui/icons/Power';
 
 import {makeStyles} from '@material-ui/core/styles';
-import {querySessions} from "../api/bbgo";
+import {querySessions} from "../src/api/bbgo";
 
 const useStyles = makeStyles((theme) => ({
     formControl: {

@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-import {queryClosedOrders} from '../api/bbgo';
+import {queryClosedOrders} from '../src/api/bbgo';
 import {DataGrid} from '@material-ui/data-grid';
 import DashboardLayout from '../layouts/DashboardLayout';
 

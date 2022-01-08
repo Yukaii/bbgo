@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 import {makeStyles} from '@material-ui/core/styles';
 
-import {ping, saveConfig, setupRestart} from "../api/bbgo";
+import {ping, saveConfig, setupRestart} from "../src/api/bbgo";
 import Box from "@material-ui/core/Box";
 import Alert from "@material-ui/lab/Alert";
 

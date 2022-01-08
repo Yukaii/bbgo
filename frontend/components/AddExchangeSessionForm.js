@@ -20,7 +20,7 @@ import Alert from '@material-ui/lab/Alert';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import Visibility from '@material-ui/icons/Visibility';
 
-import {addSession, testSessionConnection} from '../api/bbgo';
+import {addSession, testSessionConnection} from '../src/api/bbgo';
 
 import {makeStyles} from '@material-ui/core/styles';
 

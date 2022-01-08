@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-import {queryTrades} from '../api/bbgo';
+import {queryTrades} from '../src/api/bbgo';
 import {DataGrid} from '@material-ui/data-grid';
 import DashboardLayout from '../layouts/DashboardLayout';
 
